@@ -1,0 +1,54 @@
+@import "../../styles/mixin";
+
+.login-page {
+  padding-left: 52px;
+  padding-right: 32px;
+  overflow: hidden;
+  .title{
+    font-size:48px;
+    color:rgba(0,182,110,1);
+    margin-top: 80px;
+    margin-bottom: 120px;
+  }
+
+  .form{
+    .form-item{
+      padding-top: 24px;
+      .label{
+        height: 48px;
+        display: flex;
+        align-items: center;
+        font-size:24px;
+        color:rgba(176,176,176,1);
+        text{
+          margin-left: 9px;
+        }
+      }
+
+      input{
+        height: 80px;
+        font-size: 30px;
+        border-bottom: 1px solid #E3E3E3;
+        padding-left: 12px;
+        &.placeholder{
+          color: #CCCCCC;
+        }
+      }
+    }
+
+    .btn{
+      height:90px;
+      background:rgba(0,207,138,1);
+      border-radius:45px;
+      font-size:32px;
+      color:rgba(255,255,255,1);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 79px;
+      border: none;
+    }
+  }
+
+
+}
